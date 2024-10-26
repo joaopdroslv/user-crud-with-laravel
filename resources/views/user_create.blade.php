@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="w-50 mt-5">
-        <a type="button" class="btn btn-danger w-25" href="{{ route('users.index') }}">Go Back</a>
+        <a type="button" class="btn btn-primary w-25" href="{{ route('users.index') }}">Go Back</a>
         <input type="submit" class="btn btn-success w-25" value="Create">
     </div>
 </form>

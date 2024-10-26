@@ -29,7 +29,7 @@
                 <td>{{ $user->created_at }}</td>
                 <td>{{ $user->updated_at }}</td>
                 <td>
-                    <a href="{{ route('users.show', ['user' => $user->id]) }}" class="btn btn-success">Details</a>
+                    <a href="{{ route('users.show', ['user' => $user->id]) }}" class="btn btn-primary">Details</a>
                     <a href="{{ route('users.edit', ['user' => $user->id]) }}" class="btn btn-primary">Edit</a>
                 </td>
             </tr>
