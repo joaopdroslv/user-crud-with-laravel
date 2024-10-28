@@ -53,4 +53,8 @@ Users
     </tbody>
 </table>
 
+<div class="container mt-5 mb-5">
+    {{ $users->links('components/pagination') }}
+</div>
+
 @endsection
