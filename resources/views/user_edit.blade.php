@@ -2,7 +2,10 @@
 
 @section('content')
 
-<h2 class="mt-5">Edit User</h2>
+<h2 class="mt-5 d-flex align-items-center">
+    <i class="material-icons me-2">edit</i>
+    Edit User
+</h2>
 <hr class="mt-3 mb-5">
 
 @if (session()->has('success'))

@@ -3,8 +3,14 @@
 @section('content')
 
 <div class="d-flex justify-content-between align-items-center mt-5">
-    <h2>Users</h2>
-    <a href="{{ route('users.create') }}" class="btn btn-success">Create</a>
+    <div class="d-flex align-items-center">
+        <i class="material-icons">group</i>
+        <h2 class="mb-0 ms-3">Users</h2>
+    </div>
+    <a href="{{ route('users.create') }}" class="btn btn-success d-flex align-items-center">
+        <i class="material-icons me-2">add</i>
+        Create
+    </a>
 </div>
 <hr class="mt-3 mb-5">
 <table class="table table-striped">
@@ -29,8 +35,14 @@
                 <td>{{ $user->created_at }}</td>
                 <td>{{ $user->updated_at }}</td>
                 <td>
-                    <a href="{{ route('users.show', ['user' => $user->id]) }}" class="btn btn-primary">Details</a>
-                    <a href="{{ route('users.edit', ['user' => $user->id]) }}" class="btn btn-primary">Edit</a>
+                    <a href="{{ route('users.show', ['user' => $user->id]) }}" class="btn btn-primary">
+                        <i class="material-icons" style="margin-right: 4px; vertical-align: middle;">visibility</i>
+                        Details
+                    </a>
+                    <a href="{{ route('users.edit', ['user' => $user->id]) }}" class="btn btn-primary">
+                        <i class="material-icons" style="margin-right: 4px; vertical-align: middle;">edit</i>
+                        Edit
+                    </a>
                 </td>
             </tr>
         @endforeach

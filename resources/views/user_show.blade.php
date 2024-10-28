@@ -2,7 +2,10 @@
 
 @section('content')
 
-<h2 class="mt-5">User Details</h2>
+<h2 class="mt-5 d-flex align-items-center">
+    <i class="material-icons me-2">info</i>
+    User Details
+</h2>
 <hr class="mt-3 mb-5">
 
 <form action="{{ route('users.destroy', ['user' => $user->id]) }}" method="POST">
