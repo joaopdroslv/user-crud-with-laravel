@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+Edit User
+@endsection
+
 @section('content')
 
 <h2 class="mt-5 d-flex align-items-center">

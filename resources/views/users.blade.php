@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+Users
+@endsection
+
 @section('content')
 
 <div class="d-flex justify-content-between align-items-center mt-5">
