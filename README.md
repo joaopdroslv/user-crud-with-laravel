@@ -23,7 +23,6 @@ Este projeto foi desenvolvido com o objetivo de treinar e praticar os conceitos 
 
 O sistema oferece rotas de fácil acesso para realizar as operações CRUD no recurso **User**:
 
-- `GET /`: Exibe a listagem de usuários.
 - `GET /users`: Exibe todos os usuários cadastrados.
 - `GET /users/create`: Exibe o formulário para criação de um novo usuário.
 - `POST /users`: Processa o formulário de criação de um usuário.
